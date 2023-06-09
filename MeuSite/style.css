@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    user-select: none;
+}
+main .head{
+    background-image: url(Img/fundo.jpg);
+}
+nav>ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    align-items: center;
+    margin: 0 90px;
+    text-transform: uppercase;
+}
+nav .logo{
+    position: relative;
+    right: 40%;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+nav li a{
+    padding: 5px 30px;
+    font-size: large;
+}
+nav li a:hover{
+    background-color: rgba(0, 0, 0, 0.514);
+    color: aliceblue;
+    border-radius: 10px;
+    transition: background 1s;
+}
+/* nav */
+main>.head{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 200px 60px;
+    list-style: none;
+}
+main .head div{
+    padding: 20px ;
+}
+.cust{
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    background-color: rgba(240, 248, 255, 0.568);
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.ajuda{
+    font-weight: bold;
+    font-size: large;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 30px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.cust:hover{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.349);
+    transition: background 1s;
+}
+.ajuda:hover{
+        color: aliceblue;
+        transition: linear 0.4s;
+        background-color: rgba(0, 0, 0, 0.027);
+}
+/* header */
+.bodys{
+    background-color: rgba(0, 0, 0, 0.267);
+}
+.bodys h2{
+    text-align: center;
+    align-items: center;
+}
+.bodys img{
+    width: 200px;
+    height: 200px;
+}
+.tenis li{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 70px;
+    border:  black solid 0.01mm;
+    margin: 0 50px;
+    padding: 100px 10px;
+}
+.tenis li p {
+    position: relative;
+    top: 200px;
+    right: 120px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.tenis img{
+    padding: 0 10px;
+    border-radius: 100px;
+}
+.tenis h2{
+    margin: 10px 0;
+    padding: 10px 10px;
+}
+.desconto li{   
+    display: flex;
+    justify-content: right;      
+    margin: 0 50px;
+    border-radius: 200px;
+}
+.desconto li p {
+    position: relative;
+    top: 200px;
+    right: 240px;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.desconto{
+    margin: 0 100px;
+}
+.desconto img{
+    margin: 0 100px;
+    padding: 0 10px;
+    border-radius: 100px; 
+}
+.desconto h2{
+    padding: 10px 10px;
+}
+.butenis{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: 50px 600px;
+}
+.butenis:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: background 2s;
+    background-color: rgba(0, 0, 0, 0.027)
+}
+.butdesc{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: 100px 500px;
+}
+.butdesc:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: background 2s;
+    background-color: rgba(0, 0, 0, 0.027)
+}
+/* main  */
+footer{
+    text-align: center;
+}
+
+footer a{
+    padding: 0 20px;
+}
+footer a img{
+    padding: 10px 10px;
+}
+footer a img:hover{
+    color: aliceblue;
+    transition: linear 0.4s;
+    background-color: rgba(0, 0, 0, 0.171);
+}
